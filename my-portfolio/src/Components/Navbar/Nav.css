@@ -1,0 +1,29 @@
+.nav-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 12px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: dashed;
+  font-weight: bold;
+}
+
+.social-icons a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.2s;
+}
+
+.social-icons a:hover {
+  transform: translateY(-3px); /* Mover los íconos hacia arriba en hover */
+}
+
+.social-icons {
+  display: flex;
+}

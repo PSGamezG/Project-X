@@ -1,0 +1,16 @@
+.description-container {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo opaco */
+  padding: 1rem; /* Relleno */
+  border-radius: 14px;
+}
+
+.description-container h2 {
+  color: white;
+  font-size: 20px;
+}
+
+.description-container p {
+  color: white;
+  font-size: 16px;
+}
