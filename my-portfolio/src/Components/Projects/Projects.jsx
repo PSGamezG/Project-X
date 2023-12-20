@@ -4,7 +4,24 @@ const Projects = () => {
   return (
     <div className="projects-container">
       <h2>Projects</h2>
-      <p>And this is the Project section, cute isnt it?</p>
+
+      <p>Here you can find some of my work</p>
+
+      <a
+        href="https://github.com/PSGamezG/PI-countries"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="/countries.jpg" alt="Project 1" />
+      </a>
+
+      <a
+        href="https://github.com/pi-rym/PI-PSGamezG"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="/wp6445020.jpg" alt="Project 1" />
+      </a>
     </div>
   );
 };

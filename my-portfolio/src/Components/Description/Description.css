@@ -1,16 +1,39 @@
 .description-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.8); /* Fondo opaco */
   padding: 1rem; /* Relleno */
   border-radius: 14px;
+  text-align: center;
 }
 
 .description-container h2 {
   color: white;
   font-size: 20px;
+  margin-bottom: 10px; /* Agregar un margen inferior para separar del párrafo */
 }
 
 .description-container p {
   color: white;
   font-size: 16px;
+  max-width: 600px; /* Establecer un ancho máximo para el párrafo */
+}
+
+.description-container b {
+  display: block;
+  margin-top: 10px; /* Agregar un margen superior para separar del texto anterior */
+}
+
+/* Estilo adicional para la lista de habilidades */
+.description-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.description-container li {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 5px;
 }
